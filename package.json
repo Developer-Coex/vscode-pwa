@@ -14,6 +14,7 @@
     "gh-pages:deploy": "yarn build && gh-pages-clean &&  gh-pages -d $PWD/dist -o origin"
   },
   "dependencies": {
+    "http-server": "^14.1.1",
     "semver-umd": "^5.5.7",
     "vscode-oniguruma": "^1.5.1",
     "vscode-textmate": "^5.4.0",
